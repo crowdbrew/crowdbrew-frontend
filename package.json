@@ -1,6 +1,6 @@
 {
   "name": "crowdbrew-frontend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Small description for crowdbrew-frontend goes here",
   "private": true,
   "directories": {
@@ -12,7 +12,13 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crowdbrew/crowdbrew-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crowdbrew/crowdbrew-frontend/issues"
+  },
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -20,6 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
+    "chai": "^3.5.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.9.1",
     "ember-cli-app-version": "^2.0.0",
@@ -29,7 +36,8 @@
     "ember-cli-htmlbars-inline-precompile": "^0.3.3",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-jshint": "^1.0.4",
-    "ember-cli-qunit": "^3.0.1",
+    "ember-cli-mocha": "^0.12.0",
+    "ember-cli-mocha-reporter": "https://github.com/lolmaus/ember-cli-mocha-reporter.git#patch-1",
     "ember-cli-release": "^0.2.9",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
