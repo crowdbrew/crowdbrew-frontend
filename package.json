@@ -1,6 +1,6 @@
 {
   "name": "crowdbrew-frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Small description for crowdbrew-frontend goes here",
   "private": true,
   "directories": {
@@ -12,7 +12,13 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crowdbrew/crowdbrew-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crowdbrew/crowdbrew-frontend/issues"
+  },
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -20,6 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
+    "chai": "^3.5.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.9.1",
     "ember-cli-app-version": "^2.0.0",
@@ -39,6 +46,7 @@
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.3",
-    "loader.js": "^4.0.10"
+    "loader.js": "^4.0.10",
+    "mocha": "^3.2.0"
   }
 }
