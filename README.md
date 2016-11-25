@@ -20,6 +20,8 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [Yarn](https://yarnpkg.com/)
 
+
+
 ## :warning: Do not use `npm` and `ember install`
 
 This project uses [Yarn](https://yarnpkg.com/).
@@ -36,6 +38,8 @@ This project uses [Yarn](https://yarnpkg.com/).
 
         yarn add -D <addon name>
         ember g <addon name>
+
+    "Unknown blueprint" error message is expected in case the installed addon doesn't want to modify the codebase. Simply ignore the message.
 
 
 
