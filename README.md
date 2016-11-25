@@ -15,7 +15,7 @@ Do not push directly into main branches. Submit pull requests.
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+* [Node.js](http://nodejs.org/) (latest version in 6.x, we'll upgrade to Node 7 when Ember CLI does; [NVM](https://github.com/creationix/nvm) is recommended)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
 * [Yarn](https://yarnpkg.com/)
